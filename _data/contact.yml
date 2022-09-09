@@ -9,6 +9,11 @@
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
 -
+  type: youtube
+  icon: 'fas fa-video'
+  noblank: false
+  url: 'https://www.youtube.com/channel/UCgmGvXm4d5CqqiNeJEBu06w'
+-
   type: soundcloud
   icon: 'fas fa-music'
   noblank: false

@@ -41,6 +41,9 @@ twitter:
 soundcloud:
   username: kyle-hurd-3
 
+youtube:
+  username: KHurdMusic
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -52,6 +55,7 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+
 
 google_site_verification:               # fill in to your verification string
 
