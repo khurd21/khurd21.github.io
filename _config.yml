@@ -24,8 +24,7 @@ timezone:
 
 title: Kyle Hurd                          # the main title
 
-tagline: Washington State University
-          Computer Science | Fall 2022   # it will display as the sub-title
+tagline: Programmer | WSU | Fall 2022
 
 description: >-                        # used by seo meta and the atom feed
   Kyle Hurd's site to display resume and blog postings.
@@ -38,6 +37,9 @@ github:
 
 twitter:
   username: twitter_username            # change to your twitter username
+
+soundcloud:
+  username: kyle-hurd-3
 
 social:
   # Change to your full name.
@@ -75,6 +77,8 @@ google_analytics:
 #     dark   - Use the dark color scheme
 #
 theme_mode:   # [light|dark]
+
+# Plugins
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

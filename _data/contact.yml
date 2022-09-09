@@ -3,17 +3,16 @@
 -
   type: github
   icon: 'fab fa-github'
--
-  type: twitter
-  icon: 'fab fa-twitter'
+  noblank: false
 -
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
 -
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
+  type: soundcloud
+  icon: 'fas fa-music'
+  noblank: false
+  url: 'https://soundcloud.com/kyle-hurd-3'
 
 # Uncomment and complete the url below to enable more contact options
 # -
