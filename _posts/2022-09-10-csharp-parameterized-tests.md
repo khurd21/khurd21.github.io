@@ -1,7 +1,7 @@
 ---
 title: Parameterized Unit Tests in C#
 categories: [ programming ]
-tags: [ c#, unit-testing, parameterized-tests ]
+tags: [ c#, testing, parameterized-tests ]
 last_modified_at: 2022-09-10T12:00:00-05:00
 ---
 
