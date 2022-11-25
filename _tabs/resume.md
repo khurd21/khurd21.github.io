@@ -37,7 +37,7 @@ order: 5
   &emsp;
   <div class="fab fa-linkedin">
     <a
-      href="https://www.linkedin.com/in/kyle-hurd-5b1b3b1a3/"
+      href="https://www.linkedin.com/in/kyle-hurd-ab8168252/"
       target="_blank"
       rel="noopener noreferrer"
       > <b>LinkedIn</b></a>
@@ -186,7 +186,7 @@ order: 5
         around a physical copy of their jumps.
       </li>
       <li>
-        Built with ASP.NET, Amazon DynamoDB, and React Native.
+        Built with ASP.NET, Amazon DynamoDB, and React.
       </li>
     </ul>
   </dd>
