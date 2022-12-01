@@ -53,6 +53,7 @@ order: 5
 </div>
 
 ## Education
+
 ---
 
 <dl>
@@ -69,6 +70,7 @@ order: 5
 </dl>
 
 ## Skills
+
 ---
 
 <table style="border: none; overflow-y: auto;">
@@ -93,6 +95,7 @@ order: 5
 </table>
 
 ## Professional Experience
+
 ---
 
 <dl>
@@ -127,7 +130,7 @@ order: 5
 <dl>
   <dd>
     <h3>Software Engineer Intern</h3>
-    <strong><i>Sweitzer Engineering Laboratories - Pullman, WA</i></strong>
+    <strong><i>Schweitzer Engineering Laboratories - Pullman, WA</i></strong>
     <br>
     <i>10/2021 - 12/2021</i>
     <ul>
@@ -167,6 +170,7 @@ order: 5
 </dl>
 
 ## Projects
+
 ---
 
 <dl>
@@ -197,7 +201,7 @@ order: 5
     <h3>Macbeth</h3>
     <ul>
       <li>
-        Open source disease modelling web application tool.
+        Open source disease modeling web application tool.
       </li>
       <li>
         Dynamically load in deterministic and stochastic models for users to run
