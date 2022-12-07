@@ -151,7 +151,7 @@ order: 5
     <h3>Teacher's Assistant - Fundamentals of Programming in Python</h3>
     <strong><i>Washington State University - Pullman, WA</i></strong>
     <br>
-    <i>08/2020 - present</i>
+    <i>08/2020 - Present</i>
     <ul>
       <li>
         Educated students in the fundamentals of programming in <b>Python</b> by
@@ -268,12 +268,12 @@ order: 5
       >https://github.com/khurd21/Flappy_Bird</a>
     <ul>
       <li>
-        Recreation of the iconic Flappy Bird released in May 2013.
+        Recreation of the iconic Flappy Bird released in May, 2013.
       </li>
       <li>
         Play two gamemodes, Normal Mode or Flappy Invaders. Normal Mode is
         the class experience from the original game where Flappy Invaders
-        puts you against enemy birds!
+        challenges you with enemy birds!
       </li>
       <li>
         Built with C++ using SFML.
