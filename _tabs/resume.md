@@ -199,6 +199,11 @@ order: 5
 <dl>
   <dd>
     <h3>Macbeth</h3>
+    <strong><b><i>Repo: </i></b></strong>
+    <a
+      href="https://github.com/epimodels/macbeth"
+      target="_blank"
+      >https://github.com/epimodels/macbeth</a>
     <ul>
       <li>
         Open source disease modeling web application tool.
@@ -209,6 +214,9 @@ order: 5
       </li>
       <li>
         Built with Python, Django and React.
+      </li>
+      <li>
+        1st place in the senior design capstone course at Washington State University.
       </li>
     </ul>
   </dd>
