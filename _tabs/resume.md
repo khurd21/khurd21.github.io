@@ -61,7 +61,7 @@ order: 5
     <h3>Bachelor of Science, Computer Science</h3>
     <strong><i>Washington State University - Pullman, WA</i></strong>
     <br>
-    <i>Fall 2022 | 3.95 GPA</i>
+    <i>Fall 2022 | 3.93 GPA</i>
     <h3>Associate of Arts, Music</h3>
     <strong><i>Grays Harbor Community College - Aberdeen, WA</i></strong>
     <br>
@@ -151,7 +151,7 @@ order: 5
     <h3>Teacher's Assistant - Fundamentals of Programming in Python</h3>
     <strong><i>Washington State University - Pullman, WA</i></strong>
     <br>
-    <i>08/2020 - Present</i>
+    <i>08/2020 - 12/2022</i>
     <ul>
       <li>
         Educated students in the fundamentals of programming in <b>Python</b> by
