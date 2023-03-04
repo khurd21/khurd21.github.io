@@ -12,7 +12,7 @@ projects where I felt like I could clean up or use more modern tools in certain
 situations. In this post, I will explore some new ways for iterating for loops. I
 am using C++20.
 
-# Basic Iteration
+## Basic Iteration
 
 We all are familiar with the generic for loop like this:
 
@@ -68,7 +68,7 @@ for (const int i : std::views::iota(0,10)
 There are much more modifications you can make within the `std::views` namespace. You can check
 them out in the [Microsoft Documentation](https://learn.microsoft.com/en-us/cpp/standard-library/view-classes?view=msvc-170).
 
-# Container Iteration
+## Container Iteration
 
 For this section, I focused on different ways you can iterate over containers. We can filter,
 transform, and perform other operations on the container in the same way as above. For example,

@@ -24,7 +24,7 @@ original set up I had no longer functioned. It was becoming tedious to program, 
 cmake to include the Boost library and OpenMP into my project.
 
 
-# Compiler Choice
+## Compiler Choice
 
 Wow. Compilers are finicky. I have always used `gcc` to compile my code. However, when trying to make a workable
 environment, I discovered `gcc` for the tools I was introducing was not the best choice for developing. It would be
@@ -75,7 +75,7 @@ In my case, the two compilers existed in these directories:
 /opt/homebrew/opt/llvm/bin/clang
 ```
 
-# Boost
+## Boost
 
 Boost was relatively simple to install on MacOS. Here is the command:
 
@@ -105,7 +105,7 @@ find_package(Boost 1.81 REQUIRED COMPONENTS timer)
 target_link_libraries(${PROJECT_NAME} PRIVATE Boost::timer)
 ```
 
-# OpenMP
+## OpenMP
 
 For OpenMP, it may or may not be required to have this installation:
 
@@ -127,7 +127,7 @@ if (OpenMP_CXX_FOUND)
 endif()
 ```
 
-# CMake File
+## CMake File
 
 The end result of this led to a CMake file that looks like the one below.
 It is relatively simple, and was just added to speed up my development and to standardize how I run each
@@ -162,7 +162,7 @@ endif()
 target_link_libraries(${PROJECT_NAME} PRIVATE Boost::timer)
 ```
 
-# Conclusion
+## Conclusion
 
 In conclusion, I should have dove into CMake a long time ago. Although I feel like interacting with code
 at a terminal level is really important and helped me considerably in learning new languages such as C/C++, build
