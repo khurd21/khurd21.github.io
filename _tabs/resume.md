@@ -52,48 +52,6 @@ order: 5
   </div>
 </div>
 
-## Education
-
----
-
-<dl>
-  <dd>
-    <h3>Bachelor of Science, Computer Science</h3>
-    <strong><i>Washington State University - Pullman, WA</i></strong>
-    <br>
-    <i>Fall 2022 | 3.93 GPA</i>
-    <h3>Associate of Arts, Music</h3>
-    <strong><i>Grays Harbor Community College - Aberdeen, WA</i></strong>
-    <br>
-    <i>Spring 2017 | 3.93 GPA</i>
-  </dd>
-</dl>
-
-## Skills
-
----
-
-<table style="border: none; overflow-y: auto;">
-  <tr>
-    <td>Languages</td>
-    <td>Frameworks and Tools</td>
-  </tr>
-  <tr>
-    <td>
-      C#,&emsp;C/C++
-      <br>Java,&emsp;SQL
-      <br>HTML
-    </td>
-    <td>
-      Flask,&emsp;Django
-      <br>ASP.NET,&emsp;Git
-      <br>VSCode,&emsp;AWS
-      <br>DynamoDB,&emsp;Jupyter Notebook
-      <br>GitHub
-    </td>
-  </tr>
-</table>
-
 ## Professional Experience
 
 ---
@@ -169,28 +127,71 @@ order: 5
   </dd>
 </dl>
 
+## Education
+
+---
+
+<dl>
+  <dd>
+    <h3>Bachelor of Science, Computer Science</h3>
+    <strong><i>Washington State University - Pullman, WA</i></strong>
+    <br>
+    <i>Fall 2022 | 3.93 GPA</i>
+    <h3>Associate of Arts, Music</h3>
+    <strong><i>Grays Harbor Community College - Aberdeen, WA</i></strong>
+    <br>
+    <i>Spring 2017 | 3.93 GPA</i>
+  </dd>
+</dl>
+
+## Skills
+
+---
+
+<table style="border: none; overflow-y: auto;">
+  <tr>
+    <td>Languages</td>
+    <td>Frameworks and Tools</td>
+  </tr>
+  <tr>
+    <td>
+      C#,&emsp;C/C++
+      <br>Java,&emsp;SQL
+      <br>HTML
+    </td>
+    <td>
+      Flask,&emsp;Django
+      <br>ASP.NET,&emsp;Git
+      <br>VSCode,&emsp;AWS
+      <br>DynamoDB,&emsp;Jupyter Notebook
+      <br>GitHub
+    </td>
+  </tr>
+</table>
+
+
+
 ## Projects
 
 ---
 
 <dl>
   <dd>
-    <h3>Cloud Log</h3>
+    <h3>SkyBro: Weather Observations</h3>
     <strong><b><i>Repo: </i></b></strong>
     <a
-      href="https://github.com/khurd21/Skydive-Logbook"
+      href="https://github.com/khurd21/SkyBro"
       target="_blank"
-      >https://github.com/khurd21/Skydive-Logbook</a>
+      >https://github.com/khurd21/SkyBro</a>
     <ul>
       <li>
-        A logbook application designed specifically for skydiving.
+        An Alexa Skill providing weather observations tailored for skydivers and aviation enthusiasts.
       </li>
       <li>
-        Users can store logged jumps on the cloud, no longer having to worry about carrying
-        around a physical copy of their jumps.
+        SkyBro provides data regarding cloud coverage, flight rules, wind conditions, precipitation, adverse conditions, and temperature for dropzones around the United States.
       </li>
       <li>
-        Built with ASP.NET, Amazon DynamoDB, and React.
+        Built with C# using AWS Lambda and Alexa Skill Set.
       </li>
     </ul>
   </dd>
@@ -224,6 +225,28 @@ order: 5
 
 <dl>
   <dd>
+    <h3>Linux EXT2 Filesystem</h3>
+    <strong><b><i>Repo: </i></b></strong>
+    <a
+      href="https://github.com/khurd21/ext2-file-system "
+      target="_blank"
+      >https://github.com/khurd21/ext2-file-system</a>
+    <ul>
+      <li>
+        A Linux-compatible ext2 filesystem.
+      </li>
+      <li>
+        Traverse or modify the filesystem with basic commands such as cd, ls, mkdir, rmdir, and pwd. Open files for read and write operations.
+      </li>
+      <li>
+        Built with C.
+      </li>
+    </ul>
+  </dd>
+</dl>
+
+<dl>
+  <dd>
     <h3>Spreadsheet App</h3>
     <strong><b><i>Repo: </i></b></strong>
     <a
@@ -237,6 +260,49 @@ order: 5
       </li>
       <li>
         Built with C# using Winforms, targeting Windows.
+      </li>
+    </ul>
+  </dd>
+</dl>
+
+<dl>
+  <dd>
+    <h3>Sentence Generator</h3>
+    <strong><b><i>Repo: </i></b></strong>
+    <a
+      href="https://github.com/khurd21/Cpts-315-Final-Project-Sentence-Generator"
+      target="_blank"
+      >https://github.com/khurd21/Cpts-315-Final-Project-Sentence-Generator</a>
+    <ul>
+      <li>
+        A framework that reads a stream of text and generates new and unique
+        sentences based on the original text.
+      </li>
+      <li>
+        Built with Python using a markov chain and n-grams.
+      </li>
+    </ul>
+  </dd>
+</dl>
+
+<dl>
+  <dd>
+    <h3>Cloud Log</h3>
+    <strong><b><i>Repo: </i></b></strong>
+    <a
+      href="https://github.com/khurd21/Skydive-Logbook"
+      target="_blank"
+      >https://github.com/khurd21/Skydive-Logbook</a>
+    <ul>
+      <li>
+        A logbook application designed specifically for skydiving.
+      </li>
+      <li>
+        Users can store logged jumps on the cloud, no longer having to worry about carrying
+        around a physical copy of their jumps.
+      </li>
+      <li>
+        Built with ASP.NET, Amazon DynamoDB, and React.
       </li>
     </ul>
   </dd>
@@ -308,26 +374,6 @@ order: 5
       </li>
       <li>
         Built with Python using AppKit and PyAutoGUI.
-      </li>
-    </ul>
-  </dd>
-</dl>
-
-<dl>
-  <dd>
-    <h3>Sentence Generator</h3>
-    <strong><b><i>Repo: </i></b></strong>
-    <a
-      href="https://github.com/khurd21/Cpts-315-Final-Project-Sentence-Generator"
-      target="_blank"
-      >https://github.com/khurd21/Cpts-315-Final-Project-Sentence-Generator</a>
-    <ul>
-      <li>
-        A framework that reads a stream of text and generates new and unique
-        sentences based on the original text.
-      </li>
-      <li>
-        Built with Python using a markov chain and n-grams.
       </li>
     </ul>
   </dd>
