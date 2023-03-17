@@ -37,7 +37,7 @@ order: 5
   &emsp;
   <div class="fab fa-linkedin">
     <a
-      href="https://www.linkedin.com/in/kyle-hurd-ab8168252/"
+      href="https://www.linkedin.com/in/kyle-hurd/"
       target="_blank"
       rel="noopener noreferrer"
       > <b>LinkedIn</b></a>
@@ -45,7 +45,7 @@ order: 5
   &emsp;
   <div class="fas fa-file-pdf">
     <a
-      href="/assets/resume/KyleHurd-Resume.pdf"
+      href="/assets/resume/Kyle-Hurd-Resume.pdf"
       target="_blank"
       rel="noopener noreferrer"
       > Resume</a>
@@ -156,11 +156,10 @@ order: 5
   <tr>
     <td>
       C#,&emsp;C/C++
-      <br>Java,&emsp;SQL
-      <br>HTML
+      <br>Python,&emsp;Java
+      <br>HTML,&emsp;SQL
     </td>
     <td>
-      Flask,&emsp;Django
       <br>ASP.NET,&emsp;Git
       <br>VSCode,&emsp;AWS
       <br>DynamoDB,&emsp;Jupyter Notebook
@@ -168,8 +167,6 @@ order: 5
     </td>
   </tr>
 </table>
-
-
 
 ## Projects
 
