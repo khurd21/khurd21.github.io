@@ -144,30 +144,6 @@ order: 5
   </dd>
 </dl>
 
-## Skills
-
----
-
-<table style="border: none; overflow-y: auto;">
-  <tr>
-    <td>Languages</td>
-    <td>Frameworks and Tools</td>
-  </tr>
-  <tr>
-    <td>
-      C#,&emsp;C/C++
-      <br>Python,&emsp;Java
-      <br>HTML,&emsp;SQL
-    </td>
-    <td>
-      <br>ASP.NET,&emsp;Git
-      <br>VSCode,&emsp;AWS
-      <br>DynamoDB,&emsp;Jupyter Notebook
-      <br>GitHub
-    </td>
-  </tr>
-</table>
-
 ## Projects
 
 ---
@@ -182,13 +158,59 @@ order: 5
       >https://github.com/khurd21/SkyBro</a>
     <ul>
       <li>
-        An Alexa Skill providing weather observations tailored for skydivers and aviation enthusiasts.
+        An <b>Alexa Skill</b> providing weather observations tailored for skydivers and aviation enthusiasts.
       </li>
       <li>
         SkyBro provides data regarding cloud coverage, flight rules, wind conditions, precipitation, adverse conditions, and temperature for dropzones around the United States.
       </li>
       <li>
-        Built with C# using AWS Lambda and Alexa Skill Set.
+        Built with <b>C#</b> using <b>AWS Lambda</b> and <b>Alexa Skill Set</b>.
+      </li>
+    </ul>
+  </dd>
+</dl>
+
+<dl>
+  <dd>
+    <h3>Flappiest Bird</h3>
+    <strong><b><i>Repo: </i></b></strong>
+    <a
+      href="https://github.com/khurd21/Flappy_Bird"
+      target="_blank"
+      >https://github.com/khurd21/Flappy_Bird</a>
+    <ul>
+      <li>
+        Recreation of the iconic Flappy Bird released in May, 2013.
+      </li>
+      <li>
+        Play two gamemodes, Normal Mode or Flappy Invaders. Normal Mode is
+        the class experience from the original game where Flappy Invaders
+        challenges you with enemy birds!
+      </li>
+      <li>
+        Built with <b>C++</b> using <b>SFML</b>.
+      </li>
+    </ul>
+  </dd>
+</dl>
+
+<dl>
+  <dd>
+    <h3>Linux EXT2 Filesystem</h3>
+    <strong><b><i>Repo: </i></b></strong>
+    <a
+      href="https://github.com/khurd21/ext2-file-system "
+      target="_blank"
+      >https://github.com/khurd21/ext2-file-system</a>
+    <ul>
+      <li>
+        A <b>Linux-compatible ext2 filesystem</b>.
+      </li>
+      <li>
+        Traverse or modify the filesystem with basic commands such as cd, ls, mkdir, rmdir, and pwd. Open files for read and write operations.
+      </li>
+      <li>
+        Built with <b>C</b>.
       </li>
     </ul>
   </dd>
@@ -211,32 +233,10 @@ order: 5
         and view outputs.
       </li>
       <li>
-        Built with Python, Django and React.
+        Built with <b>Python</b>, <b>Django</b> and <b>React</b>.
       </li>
       <li>
         1st place in the senior design capstone course at Washington State University.
-      </li>
-    </ul>
-  </dd>
-</dl>
-
-<dl>
-  <dd>
-    <h3>Linux EXT2 Filesystem</h3>
-    <strong><b><i>Repo: </i></b></strong>
-    <a
-      href="https://github.com/khurd21/ext2-file-system "
-      target="_blank"
-      >https://github.com/khurd21/ext2-file-system</a>
-    <ul>
-      <li>
-        A Linux-compatible ext2 filesystem.
-      </li>
-      <li>
-        Traverse or modify the filesystem with basic commands such as cd, ls, mkdir, rmdir, and pwd. Open files for read and write operations.
-      </li>
-      <li>
-        Built with C.
       </li>
     </ul>
   </dd>
@@ -256,7 +256,7 @@ order: 5
         other cells, perform arithmetic equations, and undo/redo actions.
       </li>
       <li>
-        Built with C# using Winforms, targeting Windows.
+        Built with <b>C#</b> using <b>Winforms</b>, targeting <b>Windows</b>.
       </li>
     </ul>
   </dd>
@@ -276,7 +276,7 @@ order: 5
         sentences based on the original text.
       </li>
       <li>
-        Built with Python using a markov chain and n-grams.
+        Built with <b>Python</b> using a <b>markov chain</b> and <b>n-grams</b>.
       </li>
     </ul>
   </dd>
@@ -284,22 +284,22 @@ order: 5
 
 <dl>
   <dd>
-    <h3>Cloud Log</h3>
+    <h3>Zoom Mate</h3>
     <strong><b><i>Repo: </i></b></strong>
     <a
-      href="https://github.com/khurd21/Skydive-Logbook"
+      href="https://github.com/khurd21/Zoom_Mate"
       target="_blank"
-      >https://github.com/khurd21/Skydive-Logbook</a>
+      >https://github.com/khurd21/Zoom_Mate</a>
     <ul>
       <li>
-        A logbook application designed specifically for skydiving.
+        A terminal based controller for the Zoom application on MacOS.
       </li>
       <li>
-        Users can store logged jumps on the cloud, no longer having to worry about carrying
-        around a physical copy of their jumps.
+        Join meetings, toggle video and audio, end meetings, and share your
+        screen all from the terminal.
       </li>
       <li>
-        Built with ASP.NET, Amazon DynamoDB, and React.
+        Built with Python using AppKit and PyAutoGUI.
       </li>
     </ul>
   </dd>
@@ -329,73 +329,26 @@ order: 5
   </dd>
 </dl>
 
-<dl>
-  <dd>
-    <h3>Flappiest Bird</h3>
-    <strong><b><i>Repo: </i></b></strong>
-    <a
-      href="https://github.com/khurd21/Flappy_Bird"
-      target="_blank"
-      >https://github.com/khurd21/Flappy_Bird</a>
-    <ul>
-      <li>
-        Recreation of the iconic Flappy Bird released in May, 2013.
-      </li>
-      <li>
-        Play two gamemodes, Normal Mode or Flappy Invaders. Normal Mode is
-        the class experience from the original game where Flappy Invaders
-        challenges you with enemy birds!
-      </li>
-      <li>
-        Built with C++ using SFML.
-      </li>
-    </ul>
-  </dd>
-</dl>
+## Skills
 
-<dl>
-  <dd>
-    <h3>Zoom Mate</h3>
-    <strong><b><i>Repo: </i></b></strong>
-    <a
-      href="https://github.com/khurd21/Zoom_Mate"
-      target="_blank"
-      >https://github.com/khurd21/Zoom_Mate</a>
-    <ul>
-      <li>
-        A terminal based controller for the Zoom application on MacOS.
-      </li>
-      <li>
-        Join meetings, toggle video and audio, end meetings, and share your
-        screen all from the terminal.
-      </li>
-      <li>
-        Built with Python using AppKit and PyAutoGUI.
-      </li>
-    </ul>
-  </dd>
-</dl>
+---
 
-<!--
-<dl>
-  <dd>
-    <h3></h3>
-    <strong><b><i>Repo: </i></b></strong>
-    <a
-      href=""
-      target="_blank"
-      ></a>
-    <ul>
-      <li>
-        .
-      </li>
-      <li>
-        .
-      </li>
-      <li>
-        .
-      </li>
-    </ul>
-  </dd>
-</dl>
--->
+<table style="border: none; overflow-y: auto;">
+  <tr>
+    <td>Languages</td>
+    <td>Frameworks and Tools</td>
+  </tr>
+  <tr>
+    <td>
+      C#,&emsp;C/C++
+      <br>Python,&emsp;Java
+      <br>HTML,&emsp;SQL
+    </td>
+    <td>
+      <br>ASP.NET,&emsp;Git
+      <br>VSCode,&emsp;AWS
+      <br>DynamoDB,&emsp;Jupyter Notebook
+      <br>GitHub
+    </td>
+  </tr>
+</table>
