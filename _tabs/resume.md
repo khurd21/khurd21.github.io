@@ -116,7 +116,7 @@ order: 5
         hosting weekly labs and office hours.
       </li>
       <li>
-        Levered my knowledge of common misconceptions students make learning new programming
+        Leveraged my knowledge of common misconceptions students make learning new programming
         languages to help <b>improve productivity</b>.
       </li>
       <li>
