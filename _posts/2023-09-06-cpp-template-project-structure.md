@@ -1,7 +1,7 @@
 ---
 title: Serialization and Separating Declaration and Definition in Header Only Libraries
-categories: [ programming ]
-tags: [ cpp ]
+categories: [programming]
+tags: [cpp]
 last_modified_at: 2023-09-06-T12:00:00-05:00
 ---
 
@@ -19,7 +19,6 @@ use the `.hpp` files to store declarations only. A statement saying "I promise t
 be available, eventually, when compiling." In the following example, I am going to walk through a design
 decision for serializing and deserializing JSON into a C++ object. When first addressing this problem,
 I decided to write code similar to the following:
-
 
 ### IParsable.hpp
 
@@ -256,10 +255,12 @@ of the header, to include it in the `.cpp` file and then specialize the template
 you want supported.
 
 ### IParsable.cpp
+
 ```cpp
 #include <ProjectName/impl/IParsable.ipp>
 #include <ProjectName/User.hpp>
 
 IParsable<User>;
-
 ```
+
+Now there are only specializations for the `User` class.
