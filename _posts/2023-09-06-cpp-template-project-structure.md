@@ -263,4 +263,5 @@ you want supported.
 IParsable<User>;
 ```
 
-Now there are only specializations for the `User` class.
+Now there are only specializations for the `User` class. If you want to add
+more for other classes, simply add the specialization in the `.cpp` file.
