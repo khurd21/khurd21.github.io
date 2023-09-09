@@ -13,6 +13,7 @@ order: 5
 <div>
   <div class="fab fa-github">
     <a
+      style="font-family: Arial, sans-serif;"
       href="https://github.com/khurd21"
       target="_blank"
       rel="noopener noreferrer"
@@ -21,6 +22,7 @@ order: 5
   &emsp;
   <div class="fas fa-globe">
     <a
+      style="font-family: Arial, sans-serif;"
       href="https://khurd21.github.io"
       target="_blank"
       rel="noopener noreferrer"
@@ -29,6 +31,7 @@ order: 5
   &emsp;
   <div class="fas fa-envelope">
     <a
+      style="font-family: Arial, sans-serif;"
       href="mailto:kyle.hurd@wsu.edu"
       target="_blank"
       rel="noopener noreferrer"
@@ -37,6 +40,7 @@ order: 5
   &emsp;
   <div class="fab fa-linkedin">
     <a
+      style="font-family: Arial, sans-serif;"
       href="https://www.linkedin.com/in/kyle-hurd/"
       target="_blank"
       rel="noopener noreferrer"
@@ -45,6 +49,7 @@ order: 5
   &emsp;
   <div class="fas fa-file-pdf">
     <a
+      style="font-family: Arial, sans-serif;"
       href="/assets/resume/Kyle-Hurd-Resume.pdf"
       target="_blank"
       rel="noopener noreferrer"

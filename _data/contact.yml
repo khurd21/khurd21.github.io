@@ -8,7 +8,7 @@
   type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   noblank: false
-  url:  'https://www.linkedin.com/in/kyle-hurd-ab8168252/'
+  url:  'https://www.linkedin.com/in/kyle-hurd/'
 -
   type: email
   icon: 'fas fa-envelope'
