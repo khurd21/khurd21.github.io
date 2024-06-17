@@ -63,6 +63,30 @@ order: 5
 
 <dl>
   <dd>
+    <h3>Junior Software Engineer</h3>
+    <strong><i>Applied Research Associates - Raleigh, NC</i></strong>
+    <br>
+    <i>05/2023 - Present</i>
+    <ul>
+      <li>
+        Integrating joint targeteering on an Integrated Munitions Effect Assessment tool using <b>C++</b>,
+        <b>CMake</b> and <b>Qt</b> on the <b>Windows</b> platform.
+      </li>
+      <li>
+        Create and communicate with <b>REST APIs</b> to stream geo-spatial data and targets from
+        miscellaneous sources to aid targeteers in planning and
+        simulating bombardment-style attacks.
+      </li>
+      <li>
+        Participate in the <b>AGILE</b> methodology, actively engaging in sprint meetings, backlog
+        refinements, retrospectives, and daily standups.
+      </li>
+    </ul>
+  </dd>
+</dl>
+
+<dl>
+  <dd>
     <h3>Software Engineer Intern</h3>
     <strong><i>Amazon - Seattle, WA</i></strong>
     <br>
