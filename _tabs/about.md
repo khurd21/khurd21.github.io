@@ -4,20 +4,16 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi! My name is Kyle Hurd. I am studying Computer Science at
-Washington State University and graduating in Fall 2022.
-I am a musician, a programmer, and a skydiver. This website is a
-collection of my projects, my thoughts, and my hobbies which I
-plan to update more frequently. Thanks for visiting and I hope
-you enjoy your stay!
-
-<br>
+Hi! My name is Kyle Hurd. I am a software engineer currently working
+in Raleigh, North Carolina! I am a passionate programmer, musician, runner,
+and skydiver. Feel free to explore my site to learn more about my hobbies,
+view my resume, or gain insight from my blog posts. Thanks for visiting!
 
 ## Skydiving
 ----
 
 One of my favorite activities is skydiving. I have been skydiving
-since 2017 and have over 500 jumps. I got into the sport the summer
+since 2017 and have over 650 jumps. I got into the sport the summer
 after I graduated high school. I went to a local dropzone with my
 father and friends and was hooked. I have been skydiving ever since.
 
