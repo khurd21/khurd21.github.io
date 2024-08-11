@@ -2,7 +2,7 @@
 title: Google Test Basics and Effective Test Practices
 categories: [programming]
 tags: [cpp, testing]
-last_modified_at: 2024-06-12-T12:00:00-05:00
+last_modified_at: 2024-08-10-T12:00:00-05:00
 mermaid: true
 ---
 
@@ -23,6 +23,23 @@ encouraged me to begin writing tests that are simple, consistent, and reliable!
 In this post, I am going to cover the very basics of Google Test that proved to be helpful
 for me when writing unit tests. I am also going to describe a few practices I discovered
 that can help with effectively testing code.
+
+## Why Do We Test?
+
+Regression to me is one of the more important reasons to test code. Imagine you are
+onboarded onto a team that maintains a multimillion line codebase. You are given a task
+to add a feature to an internal library that is widely used throughout the code base. Your
+feature has to modify pre-existing code as well as adding in new code. The added code creates
+a branching condition based on the context in which the method is called. With unit tests,
+you would be able to modify the pre-existing code with higher confidence that the change will
+not adversely affect other use cases.
+
+What if you do not have unit or integration tests to refer to? When the code is untested,
+it can be a huge undertaking to modify the behavior of the code, especially if you are new to
+the code base. It will be harder to determine if the changes you are making are
+correct. Tests help alleviate this issue. When writing a feature, by capturing the
+behavior of your code in tests, you help the next engineer as well as creating a safety net
+to ensure new code does not degrade the existing functionality.
 
 ## How I Like to Structure Test Cases - AAA
 
@@ -203,7 +220,8 @@ private:
 };
 ```
 
-`m_logger` is a shared pointer to allow for injecting a singleton or new instance.
+`m_logger` is a shared pointer to allow for injecting a singleton or new instance. It could also
+be represented as a raw pointer or week pointer.
 
 ```cpp
 
