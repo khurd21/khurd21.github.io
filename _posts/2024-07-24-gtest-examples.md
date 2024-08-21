@@ -2,7 +2,7 @@
 title: Google Test Basics and Effective Test Practices
 categories: [programming]
 tags: [cpp, testing]
-last_modified_at: 2024-08-10-T12:00:00-05:00
+last_modified_at: 2024-08-20-T12:00:00-05:00
 mermaid: true
 ---
 
@@ -632,3 +632,7 @@ TYPED_TEST(SetUnionTests, DuplicateInsertsOfSets) {
   EXPECT_EQ(set.size(), 1);
 }
 ```
+
+## Presentation Slides
+
+<iframe src="/assets/img/blog/2024-07-24-gtest-examples/gtest-examples-slide.pdf" width="100%" height="500px"></iframe>
