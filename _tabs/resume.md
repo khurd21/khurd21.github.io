@@ -32,7 +32,7 @@ order: 5
   <div class="fas fa-envelope">
     <a
       style="font-family: Arial, sans-serif;"
-      href="mailto:kyle.hurd@wsu.edu"
+      href="mailto:kmdude1000@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
       > Email</a>
@@ -69,17 +69,26 @@ order: 5
     <i>05/2023 - Present</i>
     <ul>
       <li>
+        Hold an active <b>Secret clearance</b> and currently under investigation for <b>Top Secret//SCI</b> clearance.
+      </li>
+      <li>
         Integrating joint targeteering on an Integrated Munitions Effect Assessment tool using <b>C++</b>,
         <b>CMake</b> and <b>Qt</b> on the <b>Windows</b> platform.
       </li>
       <li>
-        Create and communicate with <b>REST APIs</b> to stream geo-spatial data and targets from
-        miscellaneous sources to aid targeteers in planning and
-        simulating bombardment-style attacks.
+        Create and communicate with <b>REST APIs</b> to stream geospatial data and targets from miscellaneous
+        sources to aid targeteers in planning and simulating bombardment-style attacks.
+      </li>
+      <li>
+        Integrated <b>OAuth2</b> with <b>KeyCloak</b> and <b>GeoAXiS</b>, using localhost and out-of-band redirects
+        to securely obtain JWT tokens.
       </li>
       <li>
         Participate in the <b>AGILE</b> methodology, actively engaging in sprint meetings, backlog
         refinements, retrospectives, and daily standups.
+      </li>
+      <li>
+        Develop and maintain unit tests using <b>GTest</b> and <b>QTest</b>, ensuring software quality and reliability.
       </li>
     </ul>
   </dd>
@@ -180,20 +189,63 @@ order: 5
 <dl>
   <dd>
     <h3>SkyBro: Weather Observations</h3>
-    <strong><b><i>Repo: </i></b></strong>
+    <strong><b><i>Repository: </i></b></strong>
     <a
       href="https://github.com/khurd21/SkyBro"
       target="_blank"
       >https://github.com/khurd21/SkyBro</a>
+    <br>
+    <strong><b><i>Alexa Skill Store: </i></b></strong>
+    <a
+      href="https://www.amazon.com/kmdude1000-SkyBro/dp/B0DTJB69VZ/ref=sr_1_1?crid=3OKT5MNJAMC07&dib=eyJ2IjoiMSJ9.K4kUZ4mHkSsNWcFOuMMoGgLRN5bpxrsg2l23H9fjCJ8YHLcG4Uff8IeK34qOT58B.ne7eanl3BeqWMbX8bWLKNVgjDDgHxQl57qz4j8ssU3I&dib_tag=se&keywords=skybro&qid=1737516514&s=digital-skills&sprefix=skybro,alexa-skills,117&sr=1-1"
+      target="_blank"
+      >https://www.amazon.com/kmdude1000-SkyBro/</a>
     <ul>
       <li>
         An <b>Alexa Skill</b> providing weather observations tailored for skydivers and aviation enthusiasts.
       </li>
       <li>
-        SkyBro provides data regarding cloud coverage, flight rules, wind conditions, precipitation, adverse conditions, and temperature for dropzones around the United States.
+        Built with C#, AWS Lambda and the Alexa Skill Set.
       </li>
       <li>
-        Built with <b>C#</b> using <b>AWS Lambda</b> and <b>Alexa Skill Set</b>.
+        <b>CI/CD</b> pipeline using <b>GitHub Actions</b>, automatically performing <b>test coverage reports</b>,
+        <b>unit tests</b>, and deployment to <b>AWS</b>.
+      </li>
+      <li>
+        SkyBro provides important weather reports including cloud coverage, precipitation, and wind
+        patterns based on the nearest <b>METAR weather station data</b> from a USPA affiliated skydiving dropzone.
+      </li>
+    </ul>
+  </dd>
+</dl>
+
+<dl>
+  <dd>
+    <h3>Audible Altimeter</h3>
+    <strong><b><i>Repository: </i></b></strong>
+    <a
+      href="https://github.com/khurd21/Audible-Altimeter"
+      target="_blank"
+      >https://github.com/khurd21/Audible-Altimeter</a>
+    <ul>
+      <li>
+        An open source speaking altimeter, acting as a tool for skydiversto maintain altitude
+        awareness when skydiving.
+      </li>
+      <li>
+        Supporting altitudes of 15,000 feet, the audible altimeter reports a skydiver's altitude
+        in 1,000 foot intervals.
+      </li>
+      <li>
+        A more affordable option for skydivers, priced six times lower than comparable audible
+        altimeters.
+      </li>
+      <li>
+        Utilized I2C communication with the BMP390 sensor to accurately read temperature and
+        pressure data for real-time altitude calculations.
+      </li>
+      <li>
+        Utilized I2S communication to efficiently transmit altitude reports to a speaker, providing clear, real-time auditory feedback to the user.
       </li>
     </ul>
   </dd>
@@ -202,7 +254,7 @@ order: 5
 <dl>
   <dd>
     <h3>Flappiest Bird</h3>
-    <strong><b><i>Repo: </i></b></strong>
+    <strong><b><i>Repository: </i></b></strong>
     <a
       href="https://github.com/khurd21/Flappy_Bird"
       target="_blank"
@@ -226,7 +278,7 @@ order: 5
 <dl>
   <dd>
     <h3>Linux EXT2 Filesystem</h3>
-    <strong><b><i>Repo: </i></b></strong>
+    <strong><b><i>Repository: </i></b></strong>
     <a
       href="https://github.com/khurd21/ext2-file-system "
       target="_blank"
@@ -248,7 +300,7 @@ order: 5
 <dl>
   <dd>
     <h3>Macbeth</h3>
-    <strong><b><i>Repo: </i></b></strong>
+    <strong><b><i>Repository: </i></b></strong>
     <a
       href="https://github.com/epimodels/macbeth"
       target="_blank"
@@ -274,7 +326,7 @@ order: 5
 <dl>
   <dd>
     <h3>Spreadsheet App</h3>
-    <strong><b><i>Repo: </i></b></strong>
+    <strong><b><i>Repository: </i></b></strong>
     <a
       href="https://github.com/khurd21/Spreadsheet-App"
       target="_blank"
@@ -294,7 +346,7 @@ order: 5
 <dl>
   <dd>
     <h3>Sentence Generator</h3>
-    <strong><b><i>Repo: </i></b></strong>
+    <strong><b><i>Repository: </i></b></strong>
     <a
       href="https://github.com/khurd21/Cpts-315-Final-Project-Sentence-Generator"
       target="_blank"
@@ -314,7 +366,7 @@ order: 5
 <dl>
   <dd>
     <h3>Zoom Mate</h3>
-    <strong><b><i>Repo: </i></b></strong>
+    <strong><b><i>Repository: </i></b></strong>
     <a
       href="https://github.com/khurd21/Zoom_Mate"
       target="_blank"
@@ -337,7 +389,7 @@ order: 5
 <dl>
   <dd>
     <h3>Cougar Research Application Portal</h3>
-    <strong><b><i>Repo: </i></b></strong>
+    <strong><b><i>Repository: </i></b></strong>
     <a
       href="https://github.com/khurd21/Cougar-Research-Application-Portal"
       target="_blank"
