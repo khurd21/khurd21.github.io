@@ -1,7 +1,5 @@
 ---
 title: Unit Testing for Embedded Software - Pico SDK
-categories: [programming]
-tags: [cpp, testing]
 last_modified_at: 2024-11-23-T12:00:00-05:00
 mermaid: true
 ---

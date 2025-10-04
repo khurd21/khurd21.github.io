@@ -1,7 +1,5 @@
 ---
 title: Google Test Basics and Effective Test Practices
-categories: [programming]
-tags: [cpp, testing]
 last_modified_at: 2024-08-20-T12:00:00-05:00
 mermaid: true
 ---

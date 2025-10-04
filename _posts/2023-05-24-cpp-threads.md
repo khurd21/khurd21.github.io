@@ -1,7 +1,5 @@
 ---
 title: Threading in C++
-categories: [ programming ]
-tags: [ cpp ]
 last_modified_at: 2023-05-24-T12:00:00-05:00
 ---
 

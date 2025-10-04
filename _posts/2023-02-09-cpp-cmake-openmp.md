@@ -1,7 +1,5 @@
 ---
 title: Adding Boost and OpenMP Library to CMake Project
-categories: [ programming ]
-tags: [ cpp, cmake, boost, openmp ]
 last_modified_at: 2023-02-09-T12:00:00-05:00
 ---
 

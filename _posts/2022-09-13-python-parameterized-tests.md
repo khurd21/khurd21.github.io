@@ -1,7 +1,5 @@
 ---
 title: Parameterized Unit Tests in Python
-categories: [ programming ]
-tags: [ python, testing, parameterized-tests ]
 last_modified_at: 2022-09-13T12:00:00-05:00
 ---
 

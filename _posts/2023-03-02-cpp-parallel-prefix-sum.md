@@ -1,7 +1,5 @@
 ---
 title: Parallel Implementation of Prefix Sum
-categories: [ programming ]
-tags: [ cpp, openmp, boost ]
 last_modified_at: 2023-03-02-T12:00:00-05:00
 ---
 

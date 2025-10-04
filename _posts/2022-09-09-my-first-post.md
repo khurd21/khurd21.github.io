@@ -1,7 +1,5 @@
 ---
 title: My First Post
-categories: [ general ]
-tags: [ first-post, animals ]
 last_modified_at: 2022-09-09T12:00:00-05:00
 ---
 

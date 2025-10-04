@@ -1,7 +1,5 @@
 ---
 title: Exploring For Loops in Cpp
-categories: [ programming ]
-tags: [ cpp ]
 last_modified_at: 2023-01-18T12:00:00-05:00
 ---
 

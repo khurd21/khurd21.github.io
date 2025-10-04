@@ -1,7 +1,5 @@
 ---
 title: Adding Google OAuth2.0 to a Dotnet WebAPI Project
-categories: [programming]
-tags: [c#, web]
 last_modified_at: 2024-01-01-T12:00:00-05:00
 ---
 

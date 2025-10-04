@@ -1,0 +1,352 @@
+---
+layout: default
+refactor: true
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Hurd - Software Engineer</title>
+    <link rel="stylesheet" href="/assets/css/default.css">
+    <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.scss">
+</head>
+<body data-theme="light">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Kyle Hurd</h1>
+                <p class="subtitle">Software Engineer • Musician • Skydiver</p>
+                
+                <div class="social-links">
+                    <a href="https://github.com/khurd21" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/kyle-hurd/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="mailto:kmdude1000@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                        Email
+                    </a>
+                </div>
+                
+                <a href="#about" class="cta-button">
+                    <i class="fas fa-arrow-down"></i>
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div style="width: 100%; height: 300px; background: var(--gradient-accent); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3>Software Engineer from Raleigh, NC</h3>
+                    <p>I’m a software engineer with experience building high-performance desktop applications, embedded systems, and cloud-based solutions. My background spans C++/Qt development, real-time systems, and serverless architectures. I thrive on solving complex, computationally demanding problems with a focus on precision, reliability, and user experience. My work bridges low-level performance, intuitive interfaces, and scalable backend services.</p>
+                    <p>Beyond coding, I'm deeply passionate about music. I play multiple instruments and perform at bars and festivals around Raleigh, North Carolina, with the Taylor Sharp Band. With them, I play the guitar and sing.</p>
+                    <p>I am also an avid skydiver, logging about 700 jumps since getting my license in the summer of 2017. I enjoy my time wingsuting near Raleigh and have a huge appreciation for anything related to aviation.</p>
+                </div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">2+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">700+</span>
+                    <span class="stat-label">Skydives</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Instruments</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Bash</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Qt</span>
+                        <span class="skill-tag">.NET</span>
+                        <span class="skill-tag">FastAPI</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> Tools & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">CMake</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Kubernetes</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-parachute-box"></i> Skydiving Credentials</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">USPA C-License</span>
+                        <span class="skill-tag">700+ Jumps</span>
+                        <span class="skill-tag">Formation Flying</span>
+                        <span class="skill-tag">Freefly</span>
+                        <span class="skill-tag">Wingsuit</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            
+            <!-- Programming Projects -->
+            <div class="projects-category">
+                <div class="project-item">
+                    <div class="project-header">
+                        <h4 class="project-title">Metar Map</h4>
+                        <p class="project-dates">September 2025 - Present</p>
+                        <p class="project-description">
+                          Metar Map is a Python-based weather LED display for aviation enthusiasts,
+                          pilots, and makers. It fetches METAR data for selected airports and visualizes
+                          flight categories, lightning, and snow conditions using addressable LEDs
+                          (e.g., NeoPixel).
+                        </p>
+                        <div class="project-tools">
+                            <span class="project-tool">Python</span>
+                            <span class="project-tool">Poetry</span>
+                            <span class="project-tool">Raspberry Pi</span>
+                            <span class="project-tool">NeoPixel</span>
+                            <span class="project-tool">Aviation</span>
+                        </div>
+                    </div>
+                    <div class="project-preview-container">
+                        <div class="project-preview">
+                            <img src="/assets/img/metar-map.jpg" alt="Metar Map Demo"/>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/khurd21/Metar-Map" class="project-link" target="_blank" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <h4 class="project-title">SkyBro</h4>
+                        <p class="project-dates">September 2024 - December 2024</p>
+                        <p class="project-description">
+                          Sky Bro is a weather observations Skill for Alexa. It is targeted for skydivers,
+                          providing vital weather details that aid in determining if the sky conditions are
+                          adequate for jumping. It uses the nearest METAR station data to provide the most
+                          recent sky conditions in the area.
+                        </p>
+                        <div class="project-tools">
+                            <span class="project-tool">C#</span>
+                            <span class="project-tool">DotNet</span>
+                            <span class="project-tool">AWS Lambda</span>
+                            <span class="project-tool">Alexa Skill</span>
+                        </div>
+                    </div>
+                    <div class="project-preview-container">
+                        <div class="project-links">
+                            <a href="https://github.com/khurd21/SkyBro" class="project-link" target="_blank" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="project-preview">
+                          <img src="/assets/img/SkyBro-Header.png" alt="SkyBro Header"/>
+                        </div>
+                    </div>
+                </div>
+
+                  <div class="project-item">
+                    <div class="project-header">
+                        <h4 class="project-title">Audible Altimeter</h4>
+                        <p class="project-dates">August 2024 - December 2024</p>
+                        <p class="project-description">
+                          Audible Altimeter is a speaking altimeter. It acts as a mechanism for skydivers to
+                          maintain altitude awareness while skydiving. Designed by a skydiver, it aims to
+                          match the simplicity and reliability of most modern audible devices, yet still
+                          be cost-effective compared to the typical audible altimeters on the market. The
+                          audible reports essential altitudes between 15,000 feet to 0 feet. It can be turned
+                          on with a simple flick of a switch and is dimensionally designed to fit into most
+                          skydiving helmets.
+                        </p>
+                        <div class="project-tools">
+                            <span class="project-tool">C++</span>
+                            <span class="project-tool">Python</span>
+                            <span class="project-tool">Pico SDK</span>
+                            <span class="project-tool">CMake</span>
+                            <span class="project-tool">I2C</span>
+                        </div>
+                    </div>
+                    <div class="project-preview-container">
+                        <div class="project-links">
+                            <a href="https://github.com/khurd21/Audible-Altimeter" class="project-link" target="_blank" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="project-preview">
+                            <img src="/assets/img/audible-altimeter.png" alt="Audible Altimeter"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section class="section experience">
+        <div class="container">
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <div class="company-logo">
+                                <img src="/assets/img/cisco-logo.png" alt="Cisco Logo" />
+                            </div>
+                            <div class="job-info">
+                                <h3>Software Engineer</h3>
+                                <h4>Cisco • July 2025 - Present</h4>
+                            </div>
+                        </div>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <div class="company-logo">
+                                <img src="/assets/img/ara-logo.png" alt="Applied Research Associates Logo" />
+                            </div>
+                            <div class="job-info">
+                                <h3>Junior Software Engineer</h3>
+                                <h4>Applied Research Associates • June 2023 - July 2025</h4>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <div class="company-logo">
+                                <img src="/assets/img/amazon-logo.png" alt="Amazon Logo" />
+                            </div>
+                            <div class="job-info">
+                                <h3>Software Development Engineer Intern</h3>
+                                <h4>Amazon • May 2022 - August 2022</h4>
+                            </div>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact">
+        <div class="container contact-container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <p>I'm always interested in new opportunities, collaborations, or just having a chat about technology, music, or skydiving!</p>
+                
+                <div class="contact-links">
+                    <a href="https://github.com/khurd21" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/kyle-hurd/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="mailto:kmdude1000@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                        Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Theme toggle functionality
+        function toggleTheme() {
+            const body = document.body;
+            const themeIcon = document.getElementById('theme-icon');
+            const currentTheme = body.getAttribute('data-theme');
+            
+            if (currentTheme === 'light') {
+                body.setAttribute('data-theme', 'dark');
+                themeIcon.className = 'fas fa-sun';
+            } else {
+                body.setAttribute('data-theme', 'light');
+                themeIcon.className = 'fas fa-moon';
+            }
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Scroll-triggered animations removed
+    </script>
+</body>
+</html>

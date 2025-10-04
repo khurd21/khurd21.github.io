@@ -1,0 +1,20 @@
+/* Disable Chirpy theme shimmer animation */
+.shimmer::before {
+  background: none !important;
+  animation: none !important;
+  -webkit-animation: none !important;
+}
+
+/* Also disable any shimmer class animations */
+.shimmer {
+  animation: none !important;
+  -webkit-animation: none !important;
+  background: none !important;
+  background-image: none !important;
+}
+
+/* Disable shimmer on images specifically */
+img.shimmer::before,
+img.shimmer::after {
+  display: none !important;
+}

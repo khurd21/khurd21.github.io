@@ -1,7 +1,5 @@
 ---
 title: Scaling Scrollable Lists in Qt
-categories: [programming]
-tags: [cpp, qt]
 last_modified_at: 2024-06-11-T12:00:00-05:00
 ---
 

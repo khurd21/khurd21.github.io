@@ -1,0 +1,154 @@
+---
+layout: default
+refactor: true
+---
+
+<style>
+  .landing-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: var(--main-bg);
+    border-radius: 12px;
+    box-shadow: 0 2px 16px var(--card-shadow, rgba(0,0,0,0.07));
+    color: var(--main-text);
+  }
+  .greeting {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  .greeting .socials a {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    color: var(--link-color, #0072b1);
+    text-decoration: none;
+  }
+  .about {
+    margin-bottom: 2.5rem;
+  }
+  .about-list {
+    margin: 1rem 0 0 0;
+    padding-left: 1.2rem;
+  }
+  .about-list li {
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+  }
+  .projects {
+    margin-bottom: 2rem;
+  }
+  .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .project-card {
+    background: var(--card-bg, #f8f9fa);
+    border-radius: 10px;
+    box-shadow: 0 1px 6px var(--card-shadow, rgba(0,0,0,0.06));
+    flex: 1 1 270px;
+    min-width: 270px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+    color: var(--main-text);
+  }
+  .project-card:hover {
+    box-shadow: 0 4px 18px var(--card-shadow, rgba(0,0,0,0.13));
+  }
+  .project-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    background: var(--img-bg, #e9ecef);
+  }
+  .project-content {
+    padding: 1rem 1.2rem 1.2rem 1.2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .project-content h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  .project-content p {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+  }
+  .project-links a {
+    margin-right: 0.7rem;
+    color: var(--link-color, #0072b1);
+    text-decoration: none;
+    font-weight: 500;
+  }
+</style>
+
+<div class="landing-container">
+  <!-- Greeting Section -->
+  <section class="greeting">
+    <h1>Hi, I'm Kyle Hurd!</h1>
+    <p>Software Engineer &bull; Musician &bull; Skydiver</p>
+    <div class="socials">
+      <a href="https://github.com/khurd21" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/kyle-hurd/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="mailto:kmdude1000@gmail.com" title="Email"><i class="fas fa-envelope"></i> Email</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate software engineer based in Raleigh, North Carolina. I love building things, exploring new technologies, and sharing knowledge. Outside of coding, I'm an avid musician and skydiver with over 650 jumps!
+    </p>
+    <ul class="about-list">
+      <li><strong>Languages:</strong> C++, Python, C#, JavaScript, TypeScript</li>
+      <li><strong>Frameworks:</strong> Qt, React, Node.js, .NET, Jekyll</li>
+      <li><strong>Tools:</strong> Git, Docker, CMake, Linux, AWS</li>
+      <li><strong>Music:</strong> Guitar, Drums, Trumpet, French Horn, Composition</li>
+      <li><strong>Skydiving:</strong> 650+ jumps, USPA B-License</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="project-card">
+        <img class="project-img" src="/assets/img/kyle-hurd-about-me-music.png" alt="Music Project">
+        <div class="project-content">
+          <h3>Music Portfolio</h3>
+          <p>My original compositions and recordings, spanning multiple genres. Listen and explore my creative side!</p>
+          <div class="project-links">
+            <a href="https://soundcloud.com/kyle-hurd-3" target="_blank">SoundCloud</a>
+            <a href="/assets/resume/Kyle-Hurd-Resume.pdf" target="_blank">Resume</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <img class="project-img" src="/assets/img/kyle-hurd-about-me-skydiving.png" alt="Skydiving">
+        <div class="project-content">
+          <h3>Skydiving Gallery</h3>
+          <p>Photos and stories from my skydiving adventures across the US. Experience the thrill from my perspective!</p>
+          <div class="project-links">
+            <a href="/assets/img/kyle-hurd-about-me-skydiving.png" target="_blank">Gallery</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <img class="project-img" src="/assets/img/kyle-hurd-close-up.jpeg" alt="GitHub Projects">
+        <div class="project-content">
+          <h3>Open Source Projects</h3>
+          <p>Explore my GitHub for code samples, open source contributions, and personal projects in C++, Python, and more.</p>
+          <div class="project-links">
+            <a href="https://github.com/khurd21" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

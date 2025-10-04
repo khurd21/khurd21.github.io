@@ -1,7 +1,5 @@
 ---
 title: Exploring the Standard Library
-categories: [programming]
-tags: [cpp]
 last_modified_at: 2024-06-12-T12:00:00-05:00
 ---
 

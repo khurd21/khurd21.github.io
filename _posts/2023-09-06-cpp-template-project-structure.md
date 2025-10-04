@@ -1,7 +1,5 @@
 ---
 title: Serialization and Separating Declaration and Definition in Header Only Libraries
-categories: [programming]
-tags: [cpp]
 last_modified_at: 2023-09-06-T12:00:00-05:00
 ---
 
